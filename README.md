@@ -273,7 +273,7 @@ Pulling data and importing into a Pandas dataframe.
 >>> from io import StringIO
 
 >>> data = sipri.sipri_data()
->>> df = pd.read_csv(StringIO(r),keep_default_na=False,na_values=['None'])
+>>> df = pd.read_csv(StringIO(data),keep_default_na=False,na_values=['None'])
 
 >>> df.head()
 
