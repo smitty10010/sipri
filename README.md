@@ -268,7 +268,7 @@ Sipri only supports Python 3.5+, but probably will work on Python 2.7 as well.
 Pulling data and importing into a Pandas dataframe.
 ```
 >>> import sipri
->>> import pandas
+>>> import pandas as pd
 >>> import io
 >>> from io import StringIO
 
